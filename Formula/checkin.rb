@@ -1,22 +1,22 @@
 class Checkin < Formula
   desc "office check-in cli"
   homepage "https://github.com/bjcgg/checkin"
-  url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.2.0/checkin-darwin-arm64"
-  version "0.2.0"
+  url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.3.0/checkin-darwin-arm64"
+  version "0.3.0"
   license "MIT"
-  sha256 "2a6c497486bd91467514ae7d596b4dbd3f64f87802c2d924402b91bb49b7fd19"
+  sha256 "eadd446d02caae2237da42e332b84e6df6c678be2b4f178704f0fe1e6b190a20"
 
   on_macos do
     on_intel do
-      url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.2.0/checkin-darwin-x64"
-      sha256 "8f6d3b0c8111af1be681c186d4d995f33953bd0004bb62eb80e04bdbd4a9e200"
+      url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.3.0/checkin-darwin-x64"
+      sha256 "0f5a85b6b474e87c8a8052eb8b3c04618189df65c5bd4db4e21ef59056b3fd8b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.2.0/checkin-linux-x64"
-      sha256 "e0fcedd0da55589a0327356eda76ca4e30c877305a9b1473025fd61cf051563f"
+      url "https://github.com/bjcgg/homebrew-tap/releases/download/v0.3.0/checkin-linux-x64"
+      sha256 "6804db333f8adc1977412622a5383ac41c5549936c2fa984d9ee3f9f46271e5c"
     end
   end
 
