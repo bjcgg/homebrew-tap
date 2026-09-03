@@ -1,22 +1,22 @@
 class Office < Formula
   desc "office check-in cli"
   homepage "https://github.com/bjcgg/office"
-  url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.3/office-darwin-arm64"
-  version "0.3.3"
+  url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-darwin-arm64"
+  version "0.3.4"
   license "MIT"
-  sha256 "52d96ed03706f5dc8ae5994e752a770dd1ef9c3b77fe4c8de62a506acfe86a09"
+  sha256 "f6a8b8781ca0bba3b0bc9c24569027a65e9a3df2a7e4ec0b356b26760c4709f5"
 
   on_macos do
     on_intel do
-      url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.3/office-darwin-x64"
-      sha256 "1d0666a6043862730402dd0ecd55c6f39300c082501f46ffb5dfd94d56e46a61"
+      url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-darwin-x64"
+      sha256 "9aa02f9ee7da1c72d966f5f570738a47d3e3eb75938f83b38ab90db19b65fa9e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.3/office-linux-x64"
-      sha256 "b6c98ff0f21c4e6854622d4b40500a6a3b67d07e278845f1b515a64db9a91e6b"
+      url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-linux-x64"
+      sha256 "a2c05b9d648c9657297e2482500fa9fabe6c85f990b6bdd55be11b116dbd7f9f"
     end
   end
 
