@@ -4,19 +4,19 @@ class Office < Formula
   url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-darwin-arm64"
   version "0.3.4"
   license "MIT"
-  sha256 "f6a8b8781ca0bba3b0bc9c24569027a65e9a3df2a7e4ec0b356b26760c4709f5"
+  sha256 "eccacb2a28607b99fd23c81475e831a2e46e344f74afb100d7fef77db4c8c593"
 
   on_macos do
     on_intel do
       url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-darwin-x64"
-      sha256 "9aa02f9ee7da1c72d966f5f570738a47d3e3eb75938f83b38ab90db19b65fa9e"
+      sha256 "f5b2f0f42ac4595ccf22711ecc878116584abdb5fc5d89524c8df252c50ff3ae"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/bjcgg/homebrew-tap/releases/download/office-v0.3.4/office-linux-x64"
-      sha256 "a2c05b9d648c9657297e2482500fa9fabe6c85f990b6bdd55be11b116dbd7f9f"
+      sha256 "22866abf9fc10e3130810d60420b5b448b9bfc391aabfb06f2b2e69ebc12f923"
     end
   end
 
